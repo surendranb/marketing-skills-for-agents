@@ -1,27 +1,24 @@
 ---
 name: internal-linking-strategy
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: SEO
 difficulty: intermediate
-description: Perform internal linking strategy for organic growth.
+description: Perform internal linking strategy to improve search engine visibility and traffic.
 triggers:
-  - internal linking strategy
   - seo
+  - keyword
+  - ranking
+  - internal-linking-strategy
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - organic_traffic
+  - keyword_ranking
 ---
 
 # Internal Linking Strategy
 
-Perform internal linking strategy for organic growth.
+Perform internal linking strategy to improve search engine visibility and traffic.
 
 ## When to Use This Skill
 Apply this skill when:

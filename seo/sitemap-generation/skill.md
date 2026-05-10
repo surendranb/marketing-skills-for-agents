@@ -1,27 +1,24 @@
 ---
 name: sitemap-generation
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: SEO
 difficulty: intermediate
-description: Perform sitemap generation for organic growth.
+description: Perform sitemap generation to improve search engine visibility and traffic.
 triggers:
-  - sitemap generation
   - seo
+  - keyword
+  - ranking
+  - sitemap-generation
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - organic_traffic
+  - keyword_ranking
 ---
 
 # Sitemap Generation
 
-Perform sitemap generation for organic growth.
+Perform sitemap generation to improve search engine visibility and traffic.
 
 ## When to Use This Skill
 Apply this skill when:

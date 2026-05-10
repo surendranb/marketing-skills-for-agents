@@ -1,27 +1,24 @@
 ---
 name: backlink-audit
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: SEO
 difficulty: intermediate
-description: Perform backlink audit for organic growth.
+description: Perform backlink audit to improve search engine visibility and traffic.
 triggers:
-  - backlink audit
   - seo
+  - keyword
+  - ranking
+  - backlink-audit
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - organic_traffic
+  - keyword_ranking
 ---
 
 # Backlink Audit
 
-Perform backlink audit for organic growth.
+Perform backlink audit to improve search engine visibility and traffic.
 
 ## When to Use This Skill
 Apply this skill when:

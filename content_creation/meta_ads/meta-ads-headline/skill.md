@@ -1,27 +1,24 @@
 ---
 name: meta-ads-headline
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the headline for a Meta Ads campaign.
+description: Create the headline for a Meta Ads campaign to drive engagement.
 triggers:
-  - meta ads headline creation
-  - content creation
+  - meta ads
+  - headline
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Meta Ads Headline Creation
 
-Create the headline for a Meta Ads campaign.
+Create the headline for a Meta Ads campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

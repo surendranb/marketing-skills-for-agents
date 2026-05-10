@@ -1,27 +1,24 @@
 ---
 name: landing-page-body-copy
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the body copy for a Landing Page campaign.
+description: Create the body copy for a Landing Page campaign to drive engagement.
 triggers:
-  - landing page body copy creation
-  - content creation
+  - landing page
+  - body copy
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Landing Page Body Copy Creation
 
-Create the body copy for a Landing Page campaign.
+Create the body copy for a Landing Page campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

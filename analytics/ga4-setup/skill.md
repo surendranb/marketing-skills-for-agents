@@ -1,27 +1,24 @@
 ---
 name: ga4-setup
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Analytics
 difficulty: intermediate
-description: Configure ga4 setup for data tracking.
+description: Configure ga4 setup to ensure accurate data tracking and attribution.
 triggers:
-  - ga4 setup
   - analytics
+  - tracking
+  - ga4
+  - ga4-setup
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - data_accuracy
+  - tracking_coverage
 ---
 
 # GA4 Setup
 
-Configure ga4 setup for data tracking.
+Configure ga4 setup to ensure accurate data tracking and attribution.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: meta-tag-writing
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: SEO
 difficulty: intermediate
-description: Perform meta tag writing for organic growth.
+description: Perform meta tag writing to improve search engine visibility and traffic.
 triggers:
-  - meta tag writing
   - seo
+  - keyword
+  - ranking
+  - meta-tag-writing
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - organic_traffic
+  - keyword_ranking
 ---
 
 # Meta Tag Writing
 
-Perform meta tag writing for organic growth.
+Perform meta tag writing to improve search engine visibility and traffic.
 
 ## When to Use This Skill
 Apply this skill when:

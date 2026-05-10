@@ -1,27 +1,24 @@
 ---
 name: positioning-gap-analysis
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Strategy & Research
 difficulty: intermediate
-description: Execute positioning gap analysis for B2B strategy.
+description: Execute positioning gap analysis to align business strategy and understand buyers.
 triggers:
-  - positioning gap analysis
-  - strategy & research
+  - strategy
+  - research
+  - persona
+  - positioning-gap-analysis
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - strategy_alignment
+  - persona_accuracy
 ---
 
 # Positioning Gap Analysis
 
-Execute positioning gap analysis for B2B strategy.
+Execute positioning gap analysis to align business strategy and understand buyers.
 
 ## When to Use This Skill
 Apply this skill when:

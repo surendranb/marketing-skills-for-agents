@@ -1,27 +1,23 @@
 ---
 name: april-dunford-positioning
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Frameworks
 difficulty: intermediate
-description: Apply the April Dunford Positioning to business strategy.
+description: Apply the April Dunford Positioning framework to structure marketing strategy.
 triggers:
-  - april dunford positioning
-  - frameworks
+  - framework
+  - strategy
+  - april-dunford-positioning
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - framework_adoption
+  - strategic_clarity
 ---
 
 # April Dunford Positioning
 
-Apply the April Dunford Positioning to business strategy.
+Apply the April Dunford Positioning framework to structure marketing strategy.
 
 ## When to Use This Skill
 Apply this skill when:

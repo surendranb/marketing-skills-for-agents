@@ -1,27 +1,24 @@
 ---
 name: value-proposition-design
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Strategy & Research
 difficulty: intermediate
-description: Execute value proposition design for B2B strategy.
+description: Execute value proposition design to align business strategy and understand buyers.
 triggers:
-  - value proposition design
-  - strategy & research
+  - strategy
+  - research
+  - persona
+  - value-proposition-design
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - strategy_alignment
+  - persona_accuracy
 ---
 
 # Value Proposition Design
 
-Execute value proposition design for B2B strategy.
+Execute value proposition design to align business strategy and understand buyers.
 
 ## When to Use This Skill
 Apply this skill when:

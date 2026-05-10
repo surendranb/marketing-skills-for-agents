@@ -1,27 +1,24 @@
 ---
 name: data-enrichment-configuration
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Operations
 difficulty: intermediate
-description: Configure data enrichment configuration for marketing operations.
+description: Configure data enrichment configuration to optimize marketing operations and workflows.
 triggers:
-  - data enrichment configuration
   - operations
+  - workflow
+  - crm
+  - data-enrichment-configuration
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - workflow_efficiency
+  - lead_quality
 ---
 
 # Data Enrichment Configuration
 
-Configure data enrichment configuration for marketing operations.
+Configure data enrichment configuration to optimize marketing operations and workflows.
 
 ## When to Use This Skill
 Apply this skill when:

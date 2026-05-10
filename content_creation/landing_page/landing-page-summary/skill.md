@@ -1,27 +1,24 @@
 ---
 name: landing-page-summary
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the summary for a Landing Page campaign.
+description: Create the summary for a Landing Page campaign to drive engagement.
 triggers:
-  - landing page summary creation
-  - content creation
+  - landing page
+  - summary
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Landing Page Summary Creation
 
-Create the summary for a Landing Page campaign.
+Create the summary for a Landing Page campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

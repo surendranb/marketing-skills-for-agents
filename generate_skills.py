@@ -30,19 +30,16 @@ analytics_skills = [
     "UTM Parameter Design", "Attribution Modeling", "Dashboard Creation"
 ]
 
-# NEW: Frameworks
 framework_skills = [
     "April Dunford Positioning", "StoryBrand SB7 Framework", "Crossing the Chasm Strategy", 
     "Permission Marketing Design", "Blue Ocean Strategy Canvas", "Hook Model Design"
 ]
 
-# NEW: Math & Metrics
 math_skills = [
     "CAC Modeling", "LTV Prediction", "Payback Period Calculation", 
     "Funnel Velocity Audit", "Cohort Retention Analysis"
 ]
 
-# NEW: Operations & Plumbing
 ops_skills = [
     "Lead Scoring Setup", "Data Enrichment Configuration", "Multi Touch Attribution", 
     "CRM Workflow Automation", "Lead Routing Logic"
@@ -51,22 +48,15 @@ ops_skills = [
 TEMPLATE = """---
 name: {slug}
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: {category}
 difficulty: intermediate
 description: {desc}
 triggers:
-  - {name_lower}
-  - {category_lower}
+{triggers_str}
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+{metrics_str}
 ---
 
 # {name}
@@ -96,8 +86,11 @@ def generate():
         for part in parts:
             slug = f"{channel.lower().replace(' ', '-')}-{part.lower().replace(' ', '-')}"
             name = f"{channel} {part} Creation"
-            desc = f"Create the {part.lower()} for a {channel} campaign."
+            desc = f"Create the {part.lower()} for a {channel} campaign to drive engagement."
             category = "Content Creation"
+            
+            triggers = [channel.lower(), part.lower(), "copywriting", "content"]
+            metrics = ["click_through_rate", "engagement_rate"]
             
             folder_path = os.path.join("content_creation", channel.lower().replace(" ", "_"), slug)
             os.makedirs(folder_path, exist_ok=True)
@@ -109,7 +102,9 @@ def generate():
                 desc=desc,
                 category=category,
                 name_lower=name.lower(),
-                category_lower=category.lower()
+                category_lower=category.lower(),
+                triggers_str="".join([f"  - {t}\n" for t in triggers]).rstrip(),
+                metrics_str="".join([f"  - {m}\n" for m in metrics]).rstrip()
             )
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(content)
@@ -119,8 +114,11 @@ def generate():
     for skill in strategy_skills:
         slug = skill.lower().replace(' ', '-')
         name = skill
-        desc = f"Execute {skill.lower()} for B2B strategy."
+        desc = f"Execute {skill.lower()} to align business strategy and understand buyers."
         category = "Strategy & Research"
+        
+        triggers = ["strategy", "research", "persona", slug]
+        metrics = ["strategy_alignment", "persona_accuracy"]
         
         folder_path = os.path.join("strategy_research", slug)
         os.makedirs(folder_path, exist_ok=True)
@@ -132,7 +130,9 @@ def generate():
             desc=desc,
             category=category,
             name_lower=name.lower(),
-            category_lower=category.lower()
+            category_lower=category.lower(),
+            triggers_str="".join([f"  - {t}\n" for t in triggers]).rstrip(),
+            metrics_str="".join([f"  - {m}\n" for m in metrics]).rstrip()
         )
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
@@ -142,8 +142,11 @@ def generate():
     for skill in seo_skills:
         slug = skill.lower().replace(' ', '-')
         name = skill
-        desc = f"Perform {skill.lower()} for organic growth."
+        desc = f"Perform {skill.lower()} to improve search engine visibility and traffic."
         category = "SEO"
+        
+        triggers = ["seo", "keyword", "ranking", slug]
+        metrics = ["organic_traffic", "keyword_ranking"]
         
         folder_path = os.path.join("seo", slug)
         os.makedirs(folder_path, exist_ok=True)
@@ -155,7 +158,9 @@ def generate():
             desc=desc,
             category=category,
             name_lower=name.lower(),
-            category_lower=category.lower()
+            category_lower=category.lower(),
+            triggers_str="".join([f"  - {t}\n" for t in triggers]).rstrip(),
+            metrics_str="".join([f"  - {m}\n" for m in metrics]).rstrip()
         )
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
@@ -165,8 +170,11 @@ def generate():
     for skill in analytics_skills:
         slug = skill.lower().replace(' ', '-')
         name = skill
-        desc = f"Configure {skill.lower()} for data tracking."
+        desc = f"Configure {skill.lower()} to ensure accurate data tracking and attribution."
         category = "Analytics"
+        
+        triggers = ["analytics", "tracking", "ga4", slug]
+        metrics = ["data_accuracy", "tracking_coverage"]
         
         folder_path = os.path.join("analytics", slug)
         os.makedirs(folder_path, exist_ok=True)
@@ -178,18 +186,23 @@ def generate():
             desc=desc,
             category=category,
             name_lower=name.lower(),
-            category_lower=category.lower()
+            category_lower=category.lower(),
+            triggers_str="".join([f"  - {t}\n" for t in triggers]).rstrip(),
+            metrics_str="".join([f"  - {m}\n" for m in metrics]).rstrip()
         )
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
         count += 1
 
-    # 5. NEW: Generate Framework Skills
+    # 5. Generate Framework Skills
     for skill in framework_skills:
         slug = skill.lower().replace(' ', '-')
         name = skill
-        desc = f"Apply the {skill} to business strategy."
+        desc = f"Apply the {skill} framework to structure marketing strategy."
         category = "Frameworks"
+        
+        triggers = ["framework", "strategy", slug]
+        metrics = ["framework_adoption", "strategic_clarity"]
         
         folder_path = os.path.join("frameworks", slug)
         os.makedirs(folder_path, exist_ok=True)
@@ -201,18 +214,23 @@ def generate():
             desc=desc,
             category=category,
             name_lower=name.lower(),
-            category_lower=category.lower()
+            category_lower=category.lower(),
+            triggers_str="".join([f"  - {t}\n" for t in triggers]).rstrip(),
+            metrics_str="".join([f"  - {m}\n" for m in metrics]).rstrip()
         )
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
         count += 1
 
-    # 6. NEW: Generate Math Skills
+    # 6. Generate Math Skills
     for skill in math_skills:
         slug = skill.lower().replace(' ', '-')
         name = skill
-        desc = f"Execute {skill.lower()} for business modeling."
+        desc = f"Execute {skill.lower()} to understand unit economics and ROI."
         category = "Marketing Math"
+        
+        triggers = ["math", "metrics", "finance", slug]
+        metrics = ["model_accuracy", "roi"]
         
         folder_path = os.path.join("marketing_math", slug)
         os.makedirs(folder_path, exist_ok=True)
@@ -224,18 +242,23 @@ def generate():
             desc=desc,
             category=category,
             name_lower=name.lower(),
-            category_lower=category.lower()
+            category_lower=category.lower(),
+            triggers_str="".join([f"  - {t}\n" for t in triggers]).rstrip(),
+            metrics_str="".join([f"  - {m}\n" for m in metrics]).rstrip()
         )
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
         count += 1
 
-    # 7. NEW: Generate Ops Skills
+    # 7. Generate Ops Skills
     for skill in ops_skills:
         slug = skill.lower().replace(' ', '-')
         name = skill
-        desc = f"Configure {skill.lower()} for marketing operations."
+        desc = f"Configure {skill.lower()} to optimize marketing operations and workflows."
         category = "Operations"
+        
+        triggers = ["operations", "workflow", "crm", slug]
+        metrics = ["workflow_efficiency", "lead_quality"]
         
         folder_path = os.path.join("operations", slug)
         os.makedirs(folder_path, exist_ok=True)
@@ -247,7 +270,9 @@ def generate():
             desc=desc,
             category=category,
             name_lower=name.lower(),
-            category_lower=category.lower()
+            category_lower=category.lower(),
+            triggers_str="".join([f"  - {t}\n" for t in triggers]).rstrip(),
+            metrics_str="".join([f"  - {m}\n" for m in metrics]).rstrip()
         )
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)

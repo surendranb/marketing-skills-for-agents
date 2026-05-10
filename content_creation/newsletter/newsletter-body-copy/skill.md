@@ -1,27 +1,24 @@
 ---
 name: newsletter-body-copy
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the body copy for a Newsletter campaign.
+description: Create the body copy for a Newsletter campaign to drive engagement.
 triggers:
-  - newsletter body copy creation
-  - content creation
+  - newsletter
+  - body copy
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Newsletter Body Copy Creation
 
-Create the body copy for a Newsletter campaign.
+Create the body copy for a Newsletter campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

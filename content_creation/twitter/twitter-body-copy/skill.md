@@ -1,27 +1,24 @@
 ---
 name: twitter-body-copy
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the body copy for a Twitter campaign.
+description: Create the body copy for a Twitter campaign to drive engagement.
 triggers:
-  - twitter body copy creation
-  - content creation
+  - twitter
+  - body copy
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Twitter Body Copy Creation
 
-Create the body copy for a Twitter campaign.
+Create the body copy for a Twitter campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

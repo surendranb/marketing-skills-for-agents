@@ -1,27 +1,23 @@
 ---
 name: hook-model-design
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Frameworks
 difficulty: intermediate
-description: Apply the Hook Model Design to business strategy.
+description: Apply the Hook Model Design framework to structure marketing strategy.
 triggers:
-  - hook model design
-  - frameworks
+  - framework
+  - strategy
+  - hook-model-design
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - framework_adoption
+  - strategic_clarity
 ---
 
 # Hook Model Design
 
-Apply the Hook Model Design to business strategy.
+Apply the Hook Model Design framework to structure marketing strategy.
 
 ## When to Use This Skill
 Apply this skill when:

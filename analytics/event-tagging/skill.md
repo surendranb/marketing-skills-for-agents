@@ -1,27 +1,24 @@
 ---
 name: event-tagging
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Analytics
 difficulty: intermediate
-description: Configure event tagging for data tracking.
+description: Configure event tagging to ensure accurate data tracking and attribution.
 triggers:
-  - event tagging
   - analytics
+  - tracking
+  - ga4
+  - event-tagging
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - data_accuracy
+  - tracking_coverage
 ---
 
 # Event Tagging
 
-Configure event tagging for data tracking.
+Configure event tagging to ensure accurate data tracking and attribution.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: pain-point-mapping
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Strategy & Research
 difficulty: intermediate
-description: Execute pain point mapping for B2B strategy.
+description: Execute pain point mapping to align business strategy and understand buyers.
 triggers:
-  - pain point mapping
-  - strategy & research
+  - strategy
+  - research
+  - persona
+  - pain-point-mapping
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - strategy_alignment
+  - persona_accuracy
 ---
 
 # Pain Point Mapping
 
-Execute pain point mapping for B2B strategy.
+Execute pain point mapping to align business strategy and understand buyers.
 
 ## When to Use This Skill
 Apply this skill when:

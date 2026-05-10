@@ -1,27 +1,24 @@
 ---
 name: newsletter-call-to-action
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the call to action for a Newsletter campaign.
+description: Create the call to action for a Newsletter campaign to drive engagement.
 triggers:
-  - newsletter call to action creation
-  - content creation
+  - newsletter
+  - call to action
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Newsletter Call to Action Creation
 
-Create the call to action for a Newsletter campaign.
+Create the call to action for a Newsletter campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

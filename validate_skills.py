@@ -23,8 +23,8 @@ def validate():
                     if len(parts) >= 3:
                         frontmatter = yaml.safe_load(parts[1])
                         
-                        # Check required fields
-                        required = ["name", "version", "brand", "category", "description"]
+                        # Check required fields (removed brand)
+                        required = ["name", "version", "category", "description"]
                         missing = [field for field in required if field not in frontmatter]
                         
                         if missing:

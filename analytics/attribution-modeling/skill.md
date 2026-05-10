@@ -1,27 +1,24 @@
 ---
 name: attribution-modeling
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Analytics
 difficulty: intermediate
-description: Configure attribution modeling for data tracking.
+description: Configure attribution modeling to ensure accurate data tracking and attribution.
 triggers:
-  - attribution modeling
   - analytics
+  - tracking
+  - ga4
+  - attribution-modeling
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - data_accuracy
+  - tracking_coverage
 ---
 
 # Attribution Modeling
 
-Configure attribution modeling for data tracking.
+Configure attribution modeling to ensure accurate data tracking and attribution.
 
 ## When to Use This Skill
 Apply this skill when:

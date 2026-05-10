@@ -1,27 +1,24 @@
 ---
 name: whitepaper-conclusion
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the conclusion for a Whitepaper campaign.
+description: Create the conclusion for a Whitepaper campaign to drive engagement.
 triggers:
-  - whitepaper conclusion creation
-  - content creation
+  - whitepaper
+  - conclusion
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Whitepaper Conclusion Creation
 
-Create the conclusion for a Whitepaper campaign.
+Create the conclusion for a Whitepaper campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

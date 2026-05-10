@@ -1,27 +1,24 @@
 ---
 name: video-script-body-copy
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the body copy for a Video Script campaign.
+description: Create the body copy for a Video Script campaign to drive engagement.
 triggers:
-  - video script body copy creation
-  - content creation
+  - video script
+  - body copy
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Video Script Body Copy Creation
 
-Create the body copy for a Video Script campaign.
+Create the body copy for a Video Script campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

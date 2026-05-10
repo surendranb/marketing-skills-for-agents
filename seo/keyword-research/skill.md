@@ -1,27 +1,24 @@
 ---
 name: keyword-research
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: SEO
 difficulty: intermediate
-description: Perform keyword research for organic growth.
+description: Perform keyword research to improve search engine visibility and traffic.
 triggers:
-  - keyword research
   - seo
+  - keyword
+  - ranking
+  - keyword-research
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - organic_traffic
+  - keyword_ranking
 ---
 
 # Keyword Research
 
-Perform keyword research for organic growth.
+Perform keyword research to improve search engine visibility and traffic.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: cold-email-body-copy
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the body copy for a Cold Email campaign.
+description: Create the body copy for a Cold Email campaign to drive engagement.
 triggers:
-  - cold email body copy creation
-  - content creation
+  - cold email
+  - body copy
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Cold Email Body Copy Creation
 
-Create the body copy for a Cold Email campaign.
+Create the body copy for a Cold Email campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

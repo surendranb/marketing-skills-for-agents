@@ -1,27 +1,24 @@
 ---
 name: whitepaper-summary
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the summary for a Whitepaper campaign.
+description: Create the summary for a Whitepaper campaign to drive engagement.
 triggers:
-  - whitepaper summary creation
-  - content creation
+  - whitepaper
+  - summary
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Whitepaper Summary Creation
 
-Create the summary for a Whitepaper campaign.
+Create the summary for a Whitepaper campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

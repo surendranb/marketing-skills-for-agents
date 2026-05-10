@@ -1,27 +1,24 @@
 ---
 name: cac-modeling
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Marketing Math
 difficulty: intermediate
-description: Execute cac modeling for business modeling.
+description: Execute cac modeling to understand unit economics and ROI.
 triggers:
-  - cac modeling
-  - marketing math
+  - math
+  - metrics
+  - finance
+  - cac-modeling
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - model_accuracy
+  - roi
 ---
 
 # CAC Modeling
 
-Execute cac modeling for business modeling.
+Execute cac modeling to understand unit economics and ROI.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: robots.txt-configuration
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: SEO
 difficulty: intermediate
-description: Perform robots.txt configuration for organic growth.
+description: Perform robots.txt configuration to improve search engine visibility and traffic.
 triggers:
-  - robots.txt configuration
   - seo
+  - keyword
+  - ranking
+  - robots.txt-configuration
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - organic_traffic
+  - keyword_ranking
 ---
 
 # Robots.txt Configuration
 
-Perform robots.txt configuration for organic growth.
+Perform robots.txt configuration to improve search engine visibility and traffic.
 
 ## When to Use This Skill
 Apply this skill when:

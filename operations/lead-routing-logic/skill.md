@@ -1,27 +1,24 @@
 ---
 name: lead-routing-logic
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Operations
 difficulty: intermediate
-description: Configure lead routing logic for marketing operations.
+description: Configure lead routing logic to optimize marketing operations and workflows.
 triggers:
-  - lead routing logic
   - operations
+  - workflow
+  - crm
+  - lead-routing-logic
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - workflow_efficiency
+  - lead_quality
 ---
 
 # Lead Routing Logic
 
-Configure lead routing logic for marketing operations.
+Configure lead routing logic to optimize marketing operations and workflows.
 
 ## When to Use This Skill
 Apply this skill when:

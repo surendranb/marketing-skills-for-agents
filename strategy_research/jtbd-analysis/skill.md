@@ -1,27 +1,24 @@
 ---
 name: jtbd-analysis
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Strategy & Research
 difficulty: intermediate
-description: Execute jtbd analysis for B2B strategy.
+description: Execute jtbd analysis to align business strategy and understand buyers.
 triggers:
-  - jtbd analysis
-  - strategy & research
+  - strategy
+  - research
+  - persona
+  - jtbd-analysis
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - strategy_alignment
+  - persona_accuracy
 ---
 
 # JTBD Analysis
 
-Execute jtbd analysis for B2B strategy.
+Execute jtbd analysis to align business strategy and understand buyers.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: funnel-velocity-audit
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Marketing Math
 difficulty: intermediate
-description: Execute funnel velocity audit for business modeling.
+description: Execute funnel velocity audit to understand unit economics and ROI.
 triggers:
-  - funnel velocity audit
-  - marketing math
+  - math
+  - metrics
+  - finance
+  - funnel-velocity-audit
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - model_accuracy
+  - roi
 ---
 
 # Funnel Velocity Audit
 
-Execute funnel velocity audit for business modeling.
+Execute funnel velocity audit to understand unit economics and ROI.
 
 ## When to Use This Skill
 Apply this skill when:

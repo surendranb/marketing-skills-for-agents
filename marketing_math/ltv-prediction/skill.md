@@ -1,27 +1,24 @@
 ---
 name: ltv-prediction
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Marketing Math
 difficulty: intermediate
-description: Execute ltv prediction for business modeling.
+description: Execute ltv prediction to understand unit economics and ROI.
 triggers:
-  - ltv prediction
-  - marketing math
+  - math
+  - metrics
+  - finance
+  - ltv-prediction
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - model_accuracy
+  - roi
 ---
 
 # LTV Prediction
 
-Execute ltv prediction for business modeling.
+Execute ltv prediction to understand unit economics and ROI.
 
 ## When to Use This Skill
 Apply this skill when:

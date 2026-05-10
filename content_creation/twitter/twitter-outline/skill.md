@@ -1,27 +1,24 @@
 ---
 name: twitter-outline
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the outline for a Twitter campaign.
+description: Create the outline for a Twitter campaign to drive engagement.
 triggers:
-  - twitter outline creation
-  - content creation
+  - twitter
+  - outline
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Twitter Outline Creation
 
-Create the outline for a Twitter campaign.
+Create the outline for a Twitter campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

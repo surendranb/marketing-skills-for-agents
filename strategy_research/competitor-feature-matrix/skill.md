@@ -1,27 +1,24 @@
 ---
 name: competitor-feature-matrix
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Strategy & Research
 difficulty: intermediate
-description: Execute competitor feature matrix for B2B strategy.
+description: Execute competitor feature matrix to align business strategy and understand buyers.
 triggers:
-  - competitor feature matrix
-  - strategy & research
+  - strategy
+  - research
+  - persona
+  - competitor-feature-matrix
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - strategy_alignment
+  - persona_accuracy
 ---
 
 # Competitor Feature Matrix
 
-Execute competitor feature matrix for B2B strategy.
+Execute competitor feature matrix to align business strategy and understand buyers.
 
 ## When to Use This Skill
 Apply this skill when:

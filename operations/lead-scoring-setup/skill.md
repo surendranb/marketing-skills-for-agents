@@ -1,27 +1,24 @@
 ---
 name: lead-scoring-setup
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Operations
 difficulty: intermediate
-description: Configure lead scoring setup for marketing operations.
+description: Configure lead scoring setup to optimize marketing operations and workflows.
 triggers:
-  - lead scoring setup
   - operations
+  - workflow
+  - crm
+  - lead-scoring-setup
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - workflow_efficiency
+  - lead_quality
 ---
 
 # Lead Scoring Setup
 
-Configure lead scoring setup for marketing operations.
+Configure lead scoring setup to optimize marketing operations and workflows.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: blog-post-summary
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the summary for a Blog Post campaign.
+description: Create the summary for a Blog Post campaign to drive engagement.
 triggers:
-  - blog post summary creation
-  - content creation
+  - blog post
+  - summary
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Blog Post Summary Creation
 
-Create the summary for a Blog Post campaign.
+Create the summary for a Blog Post campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

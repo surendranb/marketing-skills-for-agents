@@ -1,27 +1,24 @@
 ---
 name: blog-post-conclusion
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the conclusion for a Blog Post campaign.
+description: Create the conclusion for a Blog Post campaign to drive engagement.
 triggers:
-  - blog post conclusion creation
-  - content creation
+  - blog post
+  - conclusion
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Blog Post Conclusion Creation
 
-Create the conclusion for a Blog Post campaign.
+Create the conclusion for a Blog Post campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

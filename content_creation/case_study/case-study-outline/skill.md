@@ -1,27 +1,24 @@
 ---
 name: case-study-outline
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the outline for a Case Study campaign.
+description: Create the outline for a Case Study campaign to drive engagement.
 triggers:
-  - case study outline creation
-  - content creation
+  - case study
+  - outline
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Case Study Outline Creation
 
-Create the outline for a Case Study campaign.
+Create the outline for a Case Study campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

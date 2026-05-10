@@ -1,27 +1,23 @@
 ---
 name: storybrand-sb7-framework
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Frameworks
 difficulty: intermediate
-description: Apply the StoryBrand SB7 Framework to business strategy.
+description: Apply the StoryBrand SB7 Framework framework to structure marketing strategy.
 triggers:
-  - storybrand sb7 framework
-  - frameworks
+  - framework
+  - strategy
+  - storybrand-sb7-framework
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - framework_adoption
+  - strategic_clarity
 ---
 
 # StoryBrand SB7 Framework
 
-Apply the StoryBrand SB7 Framework to business strategy.
+Apply the StoryBrand SB7 Framework framework to structure marketing strategy.
 
 ## When to Use This Skill
 Apply this skill when:

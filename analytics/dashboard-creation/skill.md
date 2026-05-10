@@ -1,27 +1,24 @@
 ---
 name: dashboard-creation
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Analytics
 difficulty: intermediate
-description: Configure dashboard creation for data tracking.
+description: Configure dashboard creation to ensure accurate data tracking and attribution.
 triggers:
-  - dashboard creation
   - analytics
+  - tracking
+  - ga4
+  - dashboard-creation
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - data_accuracy
+  - tracking_coverage
 ---
 
 # Dashboard Creation
 
-Configure dashboard creation for data tracking.
+Configure dashboard creation to ensure accurate data tracking and attribution.
 
 ## When to Use This Skill
 Apply this skill when:

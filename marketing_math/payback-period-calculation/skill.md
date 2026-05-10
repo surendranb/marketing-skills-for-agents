@@ -1,27 +1,24 @@
 ---
 name: payback-period-calculation
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Marketing Math
 difficulty: intermediate
-description: Execute payback period calculation for business modeling.
+description: Execute payback period calculation to understand unit economics and ROI.
 triggers:
-  - payback period calculation
-  - marketing math
+  - math
+  - metrics
+  - finance
+  - payback-period-calculation
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - model_accuracy
+  - roi
 ---
 
 # Payback Period Calculation
 
-Execute payback period calculation for business modeling.
+Execute payback period calculation to understand unit economics and ROI.
 
 ## When to Use This Skill
 Apply this skill when:

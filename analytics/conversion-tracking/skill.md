@@ -1,27 +1,24 @@
 ---
 name: conversion-tracking
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Analytics
 difficulty: intermediate
-description: Configure conversion tracking for data tracking.
+description: Configure conversion tracking to ensure accurate data tracking and attribution.
 triggers:
-  - conversion tracking
   - analytics
+  - tracking
+  - ga4
+  - conversion-tracking
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - data_accuracy
+  - tracking_coverage
 ---
 
 # Conversion Tracking
 
-Configure conversion tracking for data tracking.
+Configure conversion tracking to ensure accurate data tracking and attribution.
 
 ## When to Use This Skill
 Apply this skill when:

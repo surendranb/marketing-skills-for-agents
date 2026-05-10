@@ -1,27 +1,23 @@
 ---
 name: crossing-the-chasm-strategy
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Frameworks
 difficulty: intermediate
-description: Apply the Crossing the Chasm Strategy to business strategy.
+description: Apply the Crossing the Chasm Strategy framework to structure marketing strategy.
 triggers:
-  - crossing the chasm strategy
-  - frameworks
+  - framework
+  - strategy
+  - crossing-the-chasm-strategy
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - framework_adoption
+  - strategic_clarity
 ---
 
 # Crossing the Chasm Strategy
 
-Apply the Crossing the Chasm Strategy to business strategy.
+Apply the Crossing the Chasm Strategy framework to structure marketing strategy.
 
 ## When to Use This Skill
 Apply this skill when:

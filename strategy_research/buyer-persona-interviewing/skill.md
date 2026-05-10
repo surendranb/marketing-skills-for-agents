@@ -1,27 +1,24 @@
 ---
 name: buyer-persona-interviewing
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Strategy & Research
 difficulty: intermediate
-description: Execute buyer persona interviewing for B2B strategy.
+description: Execute buyer persona interviewing to align business strategy and understand buyers.
 triggers:
-  - buyer persona interviewing
-  - strategy & research
+  - strategy
+  - research
+  - persona
+  - buyer-persona-interviewing
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - strategy_alignment
+  - persona_accuracy
 ---
 
 # Buyer Persona Interviewing
 
-Execute buyer persona interviewing for B2B strategy.
+Execute buyer persona interviewing to align business strategy and understand buyers.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: on-page-optimization
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: SEO
 difficulty: intermediate
-description: Perform on-page optimization for organic growth.
+description: Perform on-page optimization to improve search engine visibility and traffic.
 triggers:
-  - on-page optimization
   - seo
+  - keyword
+  - ranking
+  - on-page-optimization
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - organic_traffic
+  - keyword_ranking
 ---
 
 # On-Page Optimization
 
-Perform on-page optimization for organic growth.
+Perform on-page optimization to improve search engine visibility and traffic.
 
 ## When to Use This Skill
 Apply this skill when:

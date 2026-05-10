@@ -1,27 +1,24 @@
 ---
 name: whitepaper-headline
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the headline for a Whitepaper campaign.
+description: Create the headline for a Whitepaper campaign to drive engagement.
 triggers:
-  - whitepaper headline creation
-  - content creation
+  - whitepaper
+  - headline
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Whitepaper Headline Creation
 
-Create the headline for a Whitepaper campaign.
+Create the headline for a Whitepaper campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

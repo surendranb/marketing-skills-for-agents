@@ -1,27 +1,24 @@
 ---
 name: twitter-hook
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the hook for a Twitter campaign.
+description: Create the hook for a Twitter campaign to drive engagement.
 triggers:
-  - twitter hook creation
-  - content creation
+  - twitter
+  - hook
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Twitter Hook Creation
 
-Create the hook for a Twitter campaign.
+Create the hook for a Twitter campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

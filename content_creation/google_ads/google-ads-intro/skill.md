@@ -1,27 +1,24 @@
 ---
 name: google-ads-intro
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the intro for a Google Ads campaign.
+description: Create the intro for a Google Ads campaign to drive engagement.
 triggers:
-  - google ads intro creation
-  - content creation
+  - google ads
+  - intro
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Google Ads Intro Creation
 
-Create the intro for a Google Ads campaign.
+Create the intro for a Google Ads campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

@@ -1,27 +1,24 @@
 ---
 name: crm-workflow-automation
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Operations
 difficulty: intermediate
-description: Configure crm workflow automation for marketing operations.
+description: Configure crm workflow automation to optimize marketing operations and workflows.
 triggers:
-  - crm workflow automation
   - operations
+  - workflow
+  - crm
+  - crm-workflow-automation
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - workflow_efficiency
+  - lead_quality
 ---
 
 # CRM Workflow Automation
 
-Configure crm workflow automation for marketing operations.
+Configure crm workflow automation to optimize marketing operations and workflows.
 
 ## When to Use This Skill
 Apply this skill when:

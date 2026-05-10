@@ -1,27 +1,24 @@
 ---
 name: multi-touch-attribution
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Operations
 difficulty: intermediate
-description: Configure multi touch attribution for marketing operations.
+description: Configure multi touch attribution to optimize marketing operations and workflows.
 triggers:
-  - multi touch attribution
   - operations
+  - workflow
+  - crm
+  - multi-touch-attribution
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - workflow_efficiency
+  - lead_quality
 ---
 
 # Multi Touch Attribution
 
-Configure multi touch attribution for marketing operations.
+Configure multi touch attribution to optimize marketing operations and workflows.
 
 ## When to Use This Skill
 Apply this skill when:

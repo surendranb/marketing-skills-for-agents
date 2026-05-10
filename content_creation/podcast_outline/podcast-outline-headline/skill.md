@@ -1,27 +1,24 @@
 ---
 name: podcast-outline-headline
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Content Creation
 difficulty: intermediate
-description: Create the headline for a Podcast Outline campaign.
+description: Create the headline for a Podcast Outline campaign to drive engagement.
 triggers:
-  - podcast outline headline creation
-  - content creation
+  - podcast outline
+  - headline
+  - copywriting
+  - content
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - click_through_rate
+  - engagement_rate
 ---
 
 # Podcast Outline Headline Creation
 
-Create the headline for a Podcast Outline campaign.
+Create the headline for a Podcast Outline campaign to drive engagement.
 
 ## When to Use This Skill
 Apply this skill when:

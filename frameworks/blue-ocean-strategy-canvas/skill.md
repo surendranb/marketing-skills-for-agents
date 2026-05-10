@@ -1,27 +1,23 @@
 ---
 name: blue-ocean-strategy-canvas
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Frameworks
 difficulty: intermediate
-description: Apply the Blue Ocean Strategy Canvas to business strategy.
+description: Apply the Blue Ocean Strategy Canvas framework to structure marketing strategy.
 triggers:
-  - blue ocean strategy canvas
-  - frameworks
+  - framework
+  - strategy
+  - blue-ocean-strategy-canvas
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - framework_adoption
+  - strategic_clarity
 ---
 
 # Blue Ocean Strategy Canvas
 
-Apply the Blue Ocean Strategy Canvas to business strategy.
+Apply the Blue Ocean Strategy Canvas framework to structure marketing strategy.
 
 ## When to Use This Skill
 Apply this skill when:

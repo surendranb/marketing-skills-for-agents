@@ -1,27 +1,23 @@
 ---
 name: permission-marketing-design
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Frameworks
 difficulty: intermediate
-description: Apply the Permission Marketing Design to business strategy.
+description: Apply the Permission Marketing Design framework to structure marketing strategy.
 triggers:
-  - permission marketing design
-  - frameworks
+  - framework
+  - strategy
+  - permission-marketing-design
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - framework_adoption
+  - strategic_clarity
 ---
 
 # Permission Marketing Design
 
-Apply the Permission Marketing Design to business strategy.
+Apply the Permission Marketing Design framework to structure marketing strategy.
 
 ## When to Use This Skill
 Apply this skill when:

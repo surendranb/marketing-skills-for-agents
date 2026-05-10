@@ -1,27 +1,24 @@
 ---
 name: cohort-retention-analysis
 version: "1.0.0"
-brand: Custom Skills by Surendran
 category: Marketing Math
 difficulty: intermediate
-description: Execute cohort retention analysis for business modeling.
+description: Execute cohort retention analysis to understand unit economics and ROI.
 triggers:
-  - cohort retention analysis
-  - marketing math
+  - math
+  - metrics
+  - finance
+  - cohort-retention-analysis
 prerequisites: []
 related_skills: []
-agents:
-  - copywriter
-  - planner
-mcp_integrations:
-  optional: []
 success_metrics:
-  - engagement
+  - model_accuracy
+  - roi
 ---
 
 # Cohort Retention Analysis
 
-Execute cohort retention analysis for business modeling.
+Execute cohort retention analysis to understand unit economics and ROI.
 
 ## When to Use This Skill
 Apply this skill when:
